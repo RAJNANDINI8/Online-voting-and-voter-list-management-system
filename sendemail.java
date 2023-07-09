@@ -1,8 +1,7 @@
-package candidateverification;
+package emailverification;
 
 import java.util.Properties;
 import java.util.Random;
-
 import javax.mail.Authenticator;
 import javax.mail.Message;
 import javax.mail.PasswordAuthentication;
@@ -10,12 +9,11 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+
 public class sendemail {
-  
 	public String getRandom() {
 		Random r=new Random();
 		int number=r.nextInt(999999);
-		
 		return String.format("%06d", number);
 	}
 	
@@ -23,8 +21,8 @@ public class sendemail {
 		boolean test=false;
 		
 		String toemail=userinfo.getEmail();
-		String fromEmail="**************";
-		String password="********";
+		String fromEmail="rajnandini.kokadwar@cumminscollege.in";
+		String password="Parbhani@123";
 		
 		try {
 			Properties pr=new Properties();

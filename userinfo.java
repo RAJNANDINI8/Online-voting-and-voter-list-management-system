@@ -1,5 +1,4 @@
-package candidateverification;
-
+package emailverification;
 
 
 public class userinfo {
@@ -34,14 +33,17 @@ public class userinfo {
 		this.email = email;
 	}
 	
-	public static String getCode() {
-		return code;
-	}
 	
 	public void setCode(String code) {
 		this.code = code;
 	}
-	  
+
+	public static Object getCode() {
+		// TODO Auto-generated method stub
+		return code;
+	}
+
+	
   
   
 
