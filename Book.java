@@ -1,4 +1,4 @@
-package codejava;
+package net.codejava;
 
 public class Book {
 	 private int candidate_id;
